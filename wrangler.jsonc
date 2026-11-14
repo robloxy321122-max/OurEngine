@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ourengine",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-14",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "DISCORD_CLIENT_ID": "1571089299062005820"
+  }
+}
